@@ -35,7 +35,7 @@ Ro_top = Ri_top + t
 Z_bot          = 0.8128
 Z_frustum_top  = Z_bot + 0.3048   # 12 in transition (adjust if desired)
 ZMAX           = 1.40             # <-- SET THIS to your chamber zmax
-CAP_THK        = 0.02             # 2 cm cap thickness above ZMAX
+CAP_THK        = 0.20             # 2 cm cap thickness above ZMAX
 Z_cap_top      = ZMAX + CAP_THK
 
 OUTFILE = "hood.txt"
